@@ -55,5 +55,101 @@
     padding: 0px 295px 10px 295px;
 }
 .front-button{
+    margin-top: 40px;
     text-align: center;
+    margin-bottom: 50px;
 }
+.front-button a button{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 21px 24px 21px 24px;
+    width: 200px;
+    height: 65px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* Main Section Starts */
+.why-container{
+    text-align: center;
+    margin-left: 215px;
+    margin-right: 215px;
+    background-color:#fafafb;
+    border-radius: 10px;
+    padding: 80px 95px 80px 95px;
+}
+.why-title{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+}
+.why-content-heading{
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.why-desc{
+    margin-bottom: 48px;
+}
+.why-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 100px;
+    padding: 38px 48px 38px 48px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+   
+}
+.why-button{
+    margin-top: 20px;
+    opacity: 70%;
+    color:#0D1321;
+    background-color: #FFFFFF;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13,19,33);
+}
+.gradient-border-box {
+    padding: 20px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, 
+                  white, 
+                  rgba(255,255,255,0) 80%) 1;
+    background: #f0f0f0;
+  }
+
+  /* Inspiartion Section Starts */
+  .inspiration-container{
+    text-align: center;
+    margin: 160px 290px 0px 290px;
+  }
+  .inspiration-title{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .inspiration-desc{
+    margin-bottom: 48px;
+  }
+  .inspiration-video {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    aspect-ratio: 16/9;
+    margin-bottom: 150px;
+  }
+  
+  .inspiration-video iframe {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border: none;
+    border-radius: 12px;
+  }
