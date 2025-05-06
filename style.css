@@ -38,7 +38,7 @@
 }
 /* Front Page */
 .front-page{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     text-align: center;
 }
 .font-page-img{
@@ -244,7 +244,7 @@
     border-radius: 10px;
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/handshake.jpg);
+    url(./assets/handshake.jpg);
     margin: 50px 150px 80px 150px;
     background-size: cover; 
     background-position: center;
